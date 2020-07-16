@@ -1,0 +1,12 @@
+<header>
+  
+  <nav class="navbar navbar-expand navbar-dark bg-dark" >
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a  routerLink="/" class="nav-link">View Customers</a>
+        <a  routerLink="/addcustomer" class="nav-link">Add New Customer</a>
+        <a class="nav-item nav-link" (click)="logout()" *ngIf="currentUser">Logout</a>
+
+    </div>
+  </nav>
+</header>

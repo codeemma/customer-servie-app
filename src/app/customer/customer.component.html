@@ -1,0 +1,24 @@
+<div class="col-md-8">
+  <table class="table table-striped">
+  <thead>
+  <tr>
+    <th>firstname</th>
+    <th>surname</th>
+    <th>email</th>
+    <th>phone</th>
+    <th>date of birth</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let customer of customers">
+          <td>{{customer.firstname}}</td>
+          <td>{{customer.surname}}</td>
+          <td>{{customer.email}}</td>
+          <td>{{customer.phone}}</td>
+          <td>{{customer.dateOfBirth}}</td>
+          </tr>
+  </tbody>
+    </table>
+
+  </div>
